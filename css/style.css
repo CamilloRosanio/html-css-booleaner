@@ -1,0 +1,20 @@
+
+/*stile generale*/
+body {
+    font-family: "EB Garamond", Times, serif;
+}
+
+
+/*header principale*/
+#logo-booleaner {
+    height: 50px;
+}
+
+#header-principale {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    background-image: url("../img/pattern.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
