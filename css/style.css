@@ -11,10 +11,49 @@ body {
 }
 
 #header-principale {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     
+    background-color: #4ea0fc;
     background-image: url("../img/pattern.png");
-    background-size: cover;
+    background-size: 400px;
     background-repeat: repeat;
+}
+
+
+/*titolo principale*/
+.main-title {
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#autore {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#span-autore {
+    color: rgb(0, 146, 231);
+}
+
+#data-pubblicazione {
+    color: grey;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 0px;
+}
+
+
+/*fotografie*/
+.fotografie {
+    margin: 0px;
+}
+
+.didascalie-1 {
+    font-size: 14px;
 }
