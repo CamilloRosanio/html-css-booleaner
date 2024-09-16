@@ -102,6 +102,10 @@
         font-weight: 800;
     }
 
+    .light-blue {
+        background-color: #a9d1ff; 
+    }
+
 
 /*lorem-2*/
     #lorem-2 {
@@ -110,7 +114,7 @@
 
 
 /*immagini footer*/
-    #footer-img1 {
+    .footer-img1 {
         color: white;
         font-weight: 900;
         background-image: url("../img/monitor.jpg");
@@ -121,7 +125,7 @@
         margin-bottom: 1px;
     }
 
-    #footer-img1 {
+    .footer-img2 {
         color: white;
         font-weight: 900;
         background-image: url("../img/graph.jpg");
