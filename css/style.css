@@ -1,59 +1,72 @@
 
 /*stile generale*/
-body {
-    font-family: "EB Garamond", Times, serif;
-}
+    body {
+        font-family: "EB Garamond", Times, serif;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+    }
 
 
 /*header principale*/
-#logo-booleaner {
-    height: 50px;
-}
+    #logo-booleaner {
+        height: 50px;
+    }
 
-#header-principale {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    
-    background-color: #4ea0fc;
-    background-image: url("../img/pattern.png");
-    background-size: 400px;
-    background-repeat: repeat;
-}
+    #header-principale {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        
+        background-color: #4ea0fc;
+        background-image: url("../img/pattern.png");
+        background-size: 400px;
+        background-repeat: repeat;
+    }
 
 
 /*titolo principale*/
-.main-title {
-    font-size: 45px;
-    line-height: 45px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
+    .main-title {
+        font-size: 45px;
+        line-height: 45px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
 
-#autore {
-    color: grey;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
+    #autore {
+        color: grey;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
 
-#span-autore {
-    color: rgb(0, 146, 231);
-}
+    #span-autore {
+        color: rgb(0, 146, 231);
+    }
 
-#data-pubblicazione {
-    color: grey;
-    font-size: 15px;
-    line-height: 15px;
-    margin-top: 0px;
-}
+    #data-pubblicazione {
+        color: grey;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        margin-top: 0px;
+    }
 
 
 /*fotografie*/
-.fotografie {
-    margin: 0px;
-}
+    .fotografie {
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
 
-.didascalie-1 {
-    font-size: 14px;
-}
+    .didascalie-1 {
+        font-size: 14px;
+    }
+
+
+/*lorem-highlight-1*/
+#lorem-highlight-1 {
+    background-color: yellow;
+}    
