@@ -9,6 +9,13 @@
         margin-bottom: 25px;
     }
 
+    h3 {
+        color: grey;
+        font-weight:800;
+        font-size: 16px;
+    }
+
+
 
 /*header principale*/
     #logo-booleaner {
@@ -79,13 +86,31 @@
     }   
 
 /*tabella-1*/
-.table-fullwidth {
-    width: 100%;
-    text-align: left;
-}
+    .width25 {
+        width: 25%;
+    }
 
-thead {
-    background-color: #4ea0fc;
-    color: white;
-    font-weight: 800;
-}
+    .table-fullwidth {
+        width: 100%;
+        text-align: left;
+    }
+
+    #main-table-head {
+        background-color: #4ea0fc;
+        color: white;
+        font-weight: 800;
+    }
+
+
+/*lorem-2*/
+    #lorem-2 {
+        margin-bottom: 30px;
+    }
+
+
+/*immagini footer*/
+    .footer-img {
+        font-weight:900;
+        background-image: url("../img/pattern.png");
+        padding: 10px;
+    }
